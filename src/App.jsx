@@ -21,24 +21,24 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/menu",
+          path: "/fast-react-pizza/menu",
           element: <Menu />,
           loader: menuLoader,
           errorElement: <Error />,
         },
         {
-          path: "/cart",
+          path: "/fast-react-pizza/cart",
           element: <Cart />,
         },
         {
-          path: "/order/:orderId",
+          path: "/fast-react-pizza/order/:orderId",
           element: <Order />,
           loader: orderLoader,
           errorElement: <Error />,
           action: updatedOrderAction,
         },
         {
-          path: "/order/new",
+          path: "/fast-react-pizza/order/new",
           element: <CreateOrder />,
           action: createOrderAction,
         },
