@@ -17,7 +17,7 @@ function App() {
 
       children: [
         {
-          path: "/fast-react-pizza",
+          path: "/fast-react-pizza/",
           element: <Home />,
         },
         {
