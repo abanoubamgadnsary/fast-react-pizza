@@ -21,7 +21,7 @@ function App() {
           element: <Home />,
         },
         {
-          path: "fast-react-pizza/menu",
+          path: "/fast-react-pizza/menu",
           element: <Menu />,
           loader: menuLoader,
           errorElement: <Error />,
