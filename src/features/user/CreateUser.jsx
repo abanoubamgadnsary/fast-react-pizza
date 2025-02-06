@@ -12,7 +12,7 @@ function CreateUser() {
     e.preventDefault();
     if (!username) return;
     dispatch(updateName(username));
-    navigate("/menu");
+    navigate("/fast-react-pizza/menu");
   }
 
   return (
@@ -31,9 +31,7 @@ function CreateUser() {
 
       {username !== "" && (
         <div>
-          <Button type="primary" to={"/fast-react-pizza/menu"}>
-            Start ordering
-          </Button>
+          <Button type="primary">Start ordering</Button>
         </div>
       )}
     </form>
