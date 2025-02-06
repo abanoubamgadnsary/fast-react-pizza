@@ -31,7 +31,7 @@ function App() {
           element: <Cart />,
         },
         {
-          path: "/fast-react-pizza/order/:orderId",
+          path: "/fast-react-pizza/order/new/order/:orderId",
           element: <Order />,
           loader: orderLoader,
           errorElement: <Error />,
