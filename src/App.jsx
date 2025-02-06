@@ -27,7 +27,7 @@ function App() {
           errorElement: <Error />,
         },
         {
-          path: "/cart",
+          path: "fast-react-pizza/cart",
           element: <Cart />,
         },
         {
