@@ -23,7 +23,7 @@ function Cart() {
         ))}
       </ul>
       <div className="mt-6 space-x-2">
-        <Button to="order/new/" type="primary">
+        <Button to="/fast-react-pizza/order/new/" type="primary">
           Order pizzas
         </Button>
 
