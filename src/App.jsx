@@ -21,7 +21,7 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/fast-react-pizza/menu",
+          path: "fast-react-pizza/menu",
           element: <Menu />,
           loader: menuLoader,
           errorElement: <Error />,
@@ -31,14 +31,14 @@ function App() {
           element: <Cart />,
         },
         {
-          path: "/order/:orderId",
+          path: "order/:orderId",
           element: <Order />,
           loader: orderLoader,
           errorElement: <Error />,
           action: updatedOrderAction,
         },
         {
-          path: "/order/new",
+          path: "order/new",
           element: <CreateOrder />,
           action: createOrderAction,
         },
